@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.box{
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: gold;
+    transition: all 5s ;
+    align-content: center;
+    font-weight: bold;
+
+}   
+
+.box1:hover{
+  transition-timing-function: ease;
+  translate: 900vh 0;
+}
+.box2:hover{
+    transition-timing-function: ease-in;
+  translate: 900vh 0;
+}
+.box3:hover{
+    transition-timing-function: ease-in-out;
+  translate: 900vh 0;
+}
+.box4:hover{
+    transition-timing-function: linear;
+  translate: 900vh 0;
+}
